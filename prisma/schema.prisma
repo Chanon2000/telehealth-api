@@ -1,0 +1,37 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+    provider = "prisma-client-js"
+    binaryTargets = ["native", "linux-musl"]
+}
+
+datasource db {
+    provider = "mysql"
+    url      = env("DATABASE_URL")
+}
+
+model User {
+    id         Int      @id @default(autoincrement())
+    email      String   @unique
+    first_name String?
+    last_name  String?
+    password   String
+    created_at DateTime @default(now())
+    updated_at DateTime @updatedAt
+    meetings  Meeting[] // One-to-Many relationship with Meeting
+}
+
+model Meeting {
+    id              Int      @id @default(autoincrement())
+    title           String
+    date_start      DateTime
+    date_end        DateTime
+    created_at DateTime @default(now())
+    updated_at DateTime @updatedAt
+    userId          Int      // Foreign key
+    user            User     @relation(fields: [userId], references: [id]) // Foreign key relation
+}
