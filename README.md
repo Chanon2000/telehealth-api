@@ -19,7 +19,7 @@ docker-compose up
 ![database diagram](./docs/dbdiagram-image.png)
 
 ##  Access Database Adminer at http://localhost:8080/
-![database diagram](./docs/dbdiagram-image.png)
+![database diagram](./docs/adminer-image.png)
 
 
 # Telehealth API Documentation
