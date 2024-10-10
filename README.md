@@ -54,9 +54,8 @@ This API allows users to sign up, log in, and manage their appointments (meeting
 ### 3. POST /api/meeting/
 
 **Description**: create a new meeting
-
+**Request header**: Authorization: Bearer <token>
 **Request Body**:
-Authorization: Bearer <token>
 ```json
 {
   "title": "test 1",
