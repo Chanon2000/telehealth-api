@@ -1,5 +1,5 @@
 
-# fastify, typescript, prisma, MySQL
+# Fastify, Typescript, Prisma, MySQL
 
 ## How to use
 
