@@ -48,7 +48,9 @@ This API allows users to sign up, log in, and manage their appointments (meeting
 ```json
 {
   "email": "user@example.com",
-  "password": "your_password"
+  "password": "your_password",
+  "firstName": "user_firstname",
+  "lastName": "user_lastname",
 }
 ```
 
