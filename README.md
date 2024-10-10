@@ -12,13 +12,14 @@ docker-compose up
 ```
 
 
-## Access Swagger at /docs"
+## Access Swagger at http://localhost:8000/docs"
 ![swagger](./docs/swagger-image.png)
 
 ##  Database diagram
 ![database diagram](./docs/dbdiagram-image.png)
 
-
+##  Access Database Adminer at http://localhost:8080/
+![database diagram](./docs/dbdiagram-image.png)
 
 
 # Telehealth API Documentation
