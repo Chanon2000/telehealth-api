@@ -70,8 +70,10 @@ This API allows users to sign up, log in, and manage their appointments (meeting
 
 **Description**: Updates an existing meeting
 
+**Request header**: Authorization: Bearer <token>
+
 **Request Body**:
-Authorization: Bearer <token>
+
 ```json
 {
     "meetingId": 1,
@@ -84,14 +86,17 @@ Authorization: Bearer <token>
 ### 5. DELETE /api/meeting/:meetingId
 
 **Description**: Updates an existing meeting
-Authorization: Bearer <token>
+
+**Request header**: Authorization: Bearer <token>
 
 ### 6. GET /api/meeting/:meetingId
 
 **Description**: Retrieves a specific meeting by its ID.
-Authorization: Bearer <token>
+
+**Request header**: Authorization: Bearer <token>
 
 ### 7. GET /api/meeting/
 
 **Description**: Retrieves all meetings for the logged-in user.
-Authorization: Bearer <token>
+
+**Request header**: Authorization: Bearer <token>
