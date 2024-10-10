@@ -6,7 +6,7 @@
 ### 1. Clone this repo 
 
 
-### 2. Start API and database in docker
+### 2. Start API, Database and Adminer in docker
 ```sh
 docker-compose up
 ```
