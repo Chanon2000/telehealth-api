@@ -3,12 +3,12 @@
 
 ## How to use
 
-### วิธี docker (แนะนำ)
+### 1. วิธีรันด้วย docker (แนะนำ)
 ```sh
 docker-compose up
 ```
 
-### วิธีทั่วไป
+### 2. วิธีทั่วไป
 ```sh
 npm run migrate
 ```
@@ -20,7 +20,7 @@ npm run dev
 ## เข้า swagger ได้ที่ http://localhost:8000/docs
 ![swagger](./docs/swagger-image.png)
 
-##  database diagram
+##  Database diagram
 ![database diagram](./docs/dbdiagram-image.png)
 
 
