@@ -1,22 +1,27 @@
 
-fastify typescript, prisma เป็น ORM, MySQL เป็น database
+# fastify, typescript, prisma, MySQL
 
+## How to use
 
-How to use
+### วิธี docker (แนะนำ)
+```sh
+docker-compose up
+```
 
-วิธี docker (แนะนำ)
+### วิธีทั่วไป
+```sh
+npm run migrate
+```
 
-- docker-compose up
+```sh
+npm run dev
+```
 
-วิธีทั่วไป
-- รัน npm run migrate
-- npm run dev เพื่อรัน application
+## เข้า swagger ได้ที่ http://localhost:8000/docs
+![swagger](./docs/swagger-image.png)
 
-เปิด swagger ที่ http://localhost:8000/docs
-    รูป
-
-database diagram
-    รูป
+##  database diagram
+![database diagram](./docs/dbdiagram-image.png)
 
 
 
