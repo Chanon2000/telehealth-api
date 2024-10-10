@@ -3,21 +3,16 @@
 
 ## How to use
 
-### 1. วิธีรันด้วย docker (แนะนำ)
+### 1. Clone this repo 
+
+
+### 2. Start API and database in docker
 ```sh
 docker-compose up
 ```
 
-### 2. วิธีทั่วไป
-```sh
-npm run migrate
-```
 
-```sh
-npm run dev
-```
-
-## เข้า swagger ได้ที่ http://localhost:8000/docs
+## Access Swagger at /docs"
 ![swagger](./docs/swagger-image.png)
 
 ##  Database diagram
